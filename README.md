@@ -5,7 +5,7 @@ Local directory must contain CSV files where:
 * Column names are ligand concentrations (μM)
 * Contents are relative structural stabilities
 ##### Generation
-Navigate to the following cell:
+In `cd_spectra_heatmap.ipynb`, navigate to the following cell:
 ```py
 FILENAME = 'CHANGE'
 TITLE = 'LIGAND, CATION'
@@ -26,7 +26,7 @@ Local directory must contain CSV-formatted text files with name format
 
 S-scores must be included under the heading `S` 
 ##### Generation
-Navigate to the following cell:
+In `docking_jitterplots.ipynb`, navigate to the following cell:
 ```py
 LIG = 'CHANGE'
 CONF = 'CHANGE'
